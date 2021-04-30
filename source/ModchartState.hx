@@ -23,7 +23,6 @@ import flixel.FlxG;
 class ModchartState 
 {
     
-    #if windows
 
 	public static var lua:State = null;
 
@@ -184,7 +183,6 @@ class ModchartState
 
 	function makeLuaSprite(spritePath:String,toBeCalled:String, drawBehind:Bool)
 	{
-		#if sys
 		var data:BitmapData = BitmapData.fromFile(Sys.getCwd() + "assets/data/" + PlayState.SONG.song.toLowerCase() + '/' + spritePath + ".png");
 
 		var sprite:FlxSprite = new FlxSprite(0,0);
@@ -227,10 +225,10 @@ class ModchartState
                 PlayState.instance.addObject(PlayState.dad);
             }
         }
-		#end
+		
 		return toBeCalled;
 	}
-	#end
+	
 
     public function die()
     {
