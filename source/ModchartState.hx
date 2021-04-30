@@ -23,7 +23,7 @@ import flixel.FlxG;
 class ModchartState 
 {
     
-
+	#if windows
 	public static var lua:State = null;
 
 	function callLua(func_name : String, args : Array<Dynamic>, ?type : String) : Dynamic
@@ -603,4 +603,5 @@ class ModchartState
     {
         return new ModchartState();
     }
+	#end
 }
