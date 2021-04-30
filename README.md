@@ -1,4 +1,4 @@
-![Kade Engine logo](https://github.com/FNF-Cappy-Mix/FNF-Cappy-Mix/blob/master/cappyremixlogo.png?raw=true)
+![Kade Engine logo](https://github.com/FNF-Cappy-Mix/FNF-Cappy-Mix/blob/master/cappyremixlogo2.png?raw=true)
 
 [![GitHub issues](https://img.shields.io/github/issues/FNF-Cappy-Mix/FNF-Cappy-Mix)](https://github.com/FNF-Cappy-Mix/FNF-Cappy-Mix/issues) [![GitHub pull requests](https://img.shields.io/github/issues-pr/FNF-Cappy-Mix/FNF-Cappy-Mix)](https://github.com/FNF-Cappy-Mix/FNF-Cappy-Mix/pulls)
 
