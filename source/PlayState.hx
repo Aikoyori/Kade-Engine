@@ -395,11 +395,7 @@ class PlayState extends MusicBeatState
 					var street:FlxSprite = new FlxSprite(-40, streetBehind.y).loadGraphic(Paths.image('philly/street'));
 					add(street);
 			}
-<<<<<<< HEAD
-			case 'mega-milf' | 'satin-panties' | 'high':
-=======
 			case 'limo':
->>>>>>> bac824bf135c8d060b445fcee5f59f68ce2c82e8
 			{
 					curStage = 'limo';
 					defaultCamZoom = 0.90;
