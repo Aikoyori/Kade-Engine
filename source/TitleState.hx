@@ -386,6 +386,7 @@ class TitleState extends MusicBeatState
 			logoBl.animation.addByPrefix('bump', 'logo bumpin', 24);
 			logoBl.animation.play('bump');
 			logoBl.updateHitbox();
+			trace("LOGO BUMP DIED");
 			add(logoBl);
 		}
 		if(gfDance!=null){
@@ -402,36 +403,40 @@ class TitleState extends MusicBeatState
 			gfDance.animation.addByIndices('danceLeft', 'gfDance', [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 34, false);
 			gfDance.animation.addByIndices('danceRight', 'gfDance', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 34, false);
 			gfDance.antialiasing = true;
+			trace("GF FUCKING DIED");
 			add(gfDance);
 			}
 		FlxG.log.add(curBeat);
-
+		if(!skippedIntro)
+		{
 		switch (curBeat)
 		{
-			case 3:
+			case 6:
 				createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
-			case 4:
+			
 			// credTextShit.visible = true;
-			case 5:
+		
 			// credTextShit.text += '\npresent...';
 			// credTextShit.addText();
-			case 6:
+			case 10:
 				deleteCoolText();
 			// credTextShit.visible = false;
 			// credTextShit.text = 'In association \nwith';
 			// credTextShit.screenCenter();
-			case 7:
+			case 11:
 				addMoreText('Cappy Ishihara');
+			case 12:
 				addMoreText('Aikoyori');
+			case 13:
 				addMoreText('present');
-			case 9:
+			case 16:
 				deleteCoolText();
-			case 10:
+			case 17:
 				if (Main.watermarks)
 					createCoolText(['Kade Engine', 'by']);
 				else
 					createCoolText(['In Partnership', 'with']);
-			case 11:
+			case 18:
 				if (Main.watermarks)
 					addMoreText('KadeDeveloper');
 				else
@@ -440,41 +445,42 @@ class TitleState extends MusicBeatState
 					ngSpr.visible = true;
 				}
 			// credTextShit.text += '\nNewgrounds';
-			case 12:
+			case 21:
 				deleteCoolText();
 				ngSpr.visible = false;
 			// credTextShit.visible = false;
 
 			// credTextShit.text = 'Shoutouts Tom Fulp';
 			// credTextShit.screenCenter();
-			case 13:
+			case 22:
 				createCoolText([curWacky[0]]);
 			// credTextShit.visible = true;
-			case 15:
+			case 24:
 				addMoreText(curWacky[1]);
 			// credTextShit.text += '\nlmao';
-			case 17:
+			case 26:
 				deleteCoolText();
 			// credTextShit.visible = false;
 			// credTextShit.text = "Friday";
 			// credTextShit.screenCenter();
-			case 18:
+			case 28:
 				addMoreText('Friday');
 			// credTextShit.visible = true;
-			case 19:
+			case 29:
 				addMoreText('Night');
 			// credTextShit.text += '\nNight';
-			case 20:
+			case 30:
 				addMoreText('Funkin'); 
 
-			case 21:
+			case 31:
 				addMoreText('Cappys'); // credTextShit.text += '\nFunkin';
 
-			case 22:
+			case 32:
 				addMoreText('Mix'); // credTextShit.text += '\nFunkin';
 
-			case 23:
+			case 33:
 				skipIntro();
+		}
 		}
 	}
 
