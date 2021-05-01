@@ -145,13 +145,13 @@ class TitleState extends MusicBeatState
 			// IF THIS PR IS HERE IF ITS ACCEPTED UR GOOD TO GO
 			// https://github.com/HaxeFlixel/flixel-addons/pull/348
 
-			var music:FlxSound = new FlxSound();
-			music.loadStream(Paths.music('freakyMenu'));
-			FlxG.sound.list.add(music);
-			music.play();
-			//FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
+			//var music:FlxSound = new FlxSound();
+			//music.loadStream(Paths.music('freakyMenu'));
+			//FlxG.sound.list.add(music);
+			//music.play();
+			FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
 
-			//FlxG.sound.music.fadeIn(4, 0, 0.7);
+			FlxG.sound.music.fadeIn(4, 0, 0.7);
 		}
 
 		Conductor.changeBPM(140);
