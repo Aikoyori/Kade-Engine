@@ -120,7 +120,7 @@ class TitleState extends MusicBeatState
 		#end
 	}
 
-	public var logoBl:FlxSprite;
+	var logoBl:FlxSprite;
 	var gfDance:FlxSprite;
 	var danceLeft:Bool = false;
 	var titleText:FlxSprite;
@@ -455,30 +455,30 @@ class TitleState extends MusicBeatState
 			case 22:
 				createCoolText([curWacky[0]]);
 			// credTextShit.visible = true;
-			case 24:
+			case 23:
 				addMoreText(curWacky[1]);
 			// credTextShit.text += '\nlmao';
-			case 26:
+			case 25:
 				deleteCoolText();
 			// credTextShit.visible = false;
 			// credTextShit.text = "Friday";
 			// credTextShit.screenCenter();
-			case 28:
+			case 26:
 				addMoreText('Friday');
 			// credTextShit.visible = true;
-			case 29:
+			case 27:
 				addMoreText('Night');
 			// credTextShit.text += '\nNight';
-			case 30:
+			case 28:
 				addMoreText('Funkin'); 
 
-			case 31:
+			case 29:
 				addMoreText('Cappys'); // credTextShit.text += '\nFunkin';
 
-			case 32:
+			case 30:
 				addMoreText('Mix'); // credTextShit.text += '\nFunkin';
 
-			case 33:
+			case 31:
 				skipIntro();
 		}
 		}
