@@ -249,6 +249,8 @@ class PlayState extends MusicBeatState
 				storyDifficultyText = "Advanced";
 			case 3:
 				storyDifficultyText = "Another";
+			case 4:
+				storyDifficultyText = "Champion";
 		}
 
 		iconRPC = SONG.player2;
@@ -918,6 +920,8 @@ class PlayState extends MusicBeatState
 				diffString="ADVANCED";
 			case 3:
 				diffString="ANOTHER";
+			case 4:
+				diffString="CHAMPION";
 
 		}
 		kadeEngineWatermark = new FlxText(4,healthBarBG.y + 50,0,SONG.song + " " + diffString + (Main.watermarks ? " - KE " + MainMenuState.kadeEngineVer : "") + " " + (Main.watermarks ? " - CM " + MainMenuState.cappyMixVer : "") , 16);
@@ -2370,6 +2374,8 @@ class PlayState extends MusicBeatState
 						difficulty = '-advanced';
 					if (storyDifficulty == 3)
 						difficulty = '-another';
+					if (storyDifficulty == 5)
+						difficulty = '-champion';
 
 					trace('LOADING NEXT SONG');
 					trace(PlayState.storyPlaylist[0].toLowerCase() + difficulty);

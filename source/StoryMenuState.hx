@@ -167,6 +167,7 @@ class StoryMenuState extends MusicBeatState
 		sprDifficulty.animation.addByPrefix('medium', 'MEDIUM');
 		sprDifficulty.animation.addByPrefix('advanced', 'ADVANCED');
 		sprDifficulty.animation.addByPrefix('another', 'ANOTHER');
+		sprDifficulty.animation.addByPrefix('champion', 'CHAMPION');
 		sprDifficulty.animation.play('medium');
 		changeDifficulty();
 
@@ -298,6 +299,8 @@ class StoryMenuState extends MusicBeatState
 					diffic = '-advanced';
 				case 3:
 					diffic = '-another';
+				case 4:
+					diffic = '-champion';
 			}
 
 			PlayState.storyDifficulty = curDifficulty;
@@ -337,6 +340,9 @@ class StoryMenuState extends MusicBeatState
 			case 3:
 				sprDifficulty.animation.play('another');
 				sprDifficulty.offset.x = 60;
+			case 4:
+				sprDifficulty.animation.play('champion');
+				sprDifficulty.offset.x = 80;
 
 		}
 		

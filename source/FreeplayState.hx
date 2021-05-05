@@ -234,6 +234,8 @@ class FreeplayState extends MusicBeatState
 				diffText.text = "ADVANCED";
 			case 3:
 				diffText.text = "ANOTHER";
+			case 4:
+				diffText.text = "CHAMPION";
 
 		}
 		#if !switch

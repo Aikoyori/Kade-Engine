@@ -65,6 +65,8 @@ class LoadReplayState extends MusicBeatState
 					diffString="ADVANCED";
 				case 3:
 					diffString="ANOTHER";
+				case 4:
+					diffString="CHAMPION";
 
 			}
             controlsStrings[i] = string.split("time")[0] + " " + diffString;
