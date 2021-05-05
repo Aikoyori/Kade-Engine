@@ -221,9 +221,9 @@ class FreeplayState extends MusicBeatState
 		curDifficulty += change;
 
 		if (curDifficulty < 0)
-			curDifficulty = 3;
+			curDifficulty = 4;
 		if (curDifficulty > 3)
-			curDifficulty = 0;
+			curDifficulty = 4;
 		switch(curDifficulty)
 		{
 			case 0:
