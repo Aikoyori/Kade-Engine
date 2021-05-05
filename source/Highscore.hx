@@ -70,7 +70,7 @@ class Highscore
 			daSong += '-advanced';
 		else if (diff == 3)
 			daSong += '-another';
-		else if (diff == 5)
+		else if (diff == 4)
 			daSong += '-champion';
 
 		return daSong;

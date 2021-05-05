@@ -2374,7 +2374,7 @@ class PlayState extends MusicBeatState
 						difficulty = '-advanced';
 					if (storyDifficulty == 3)
 						difficulty = '-another';
-					if (storyDifficulty == 5)
+					if (storyDifficulty == 4)
 						difficulty = '-champion';
 
 					trace('LOADING NEXT SONG');
