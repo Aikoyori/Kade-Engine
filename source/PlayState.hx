@@ -326,8 +326,8 @@ class PlayState extends MusicBeatState
 				dialogue = CoolUtil.coolTextFile(Paths.txt('senpai/senpaiDialogue'));
 			case 'roses':
 				dialogue = CoolUtil.coolTextFile(Paths.txt('roses/rosesDialogue'));
-			case 'thorns':
-				dialogue = CoolUtil.coolTextFile(Paths.txt('thorns/thornsDialogue'));
+			case 'vines':
+				dialogue = CoolUtil.coolTextFile(Paths.txt('vines/vinesDialogue'));
 		}
 
 		switch(SONG.stage)
@@ -1014,7 +1014,7 @@ class PlayState extends MusicBeatState
 				case 'roses':
 					FlxG.sound.play(Paths.sound('ANGRY'));
 					schoolIntro(doof);
-				case 'thorns':
+				case 'vines':
 					schoolIntro(doof);
 				default:
 					startCountdown();
@@ -1052,11 +1052,11 @@ class PlayState extends MusicBeatState
 		senpaiEvil.updateHitbox();
 		senpaiEvil.screenCenter();
 
-		if (SONG.song.toLowerCase() == 'roses' || SONG.song.toLowerCase() == 'thorns')
+		if (SONG.song.toLowerCase() == 'roses' || SONG.song.toLowerCase() == 'vines')
 		{
 			remove(black);
 
-			if (SONG.song.toLowerCase() == 'thorns')
+			if (SONG.song.toLowerCase() == 'vines')
 			{
 				add(red);
 			}
@@ -1076,7 +1076,7 @@ class PlayState extends MusicBeatState
 				{
 					inCutscene = true;
 
-					if (SONG.song.toLowerCase() == 'thorns')
+					if (SONG.song.toLowerCase() == 'vines')
 					{
 						add(senpaiEvil);
 						senpaiEvil.alpha = 0;
