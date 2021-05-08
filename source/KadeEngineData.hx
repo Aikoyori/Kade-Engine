@@ -63,6 +63,12 @@ class KadeEngineData
 		if (FlxG.save.data.distractions == null)
 			FlxG.save.data.distractions = true;
 
+		if (FlxG.save.data.flashing == null)
+			FlxG.save.data.flashing = true;
+		
+		if (FlxG.save.data.botplay == null)
+			FlxG.save.data.botplay = false;
+
 		Conductor.recalculateTimings();
 
 		Main.watermarks = FlxG.save.data.watermark;
