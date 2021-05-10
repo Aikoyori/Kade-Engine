@@ -230,6 +230,7 @@ class TitleState extends MusicBeatState
 			initialized = true;
 
 		// credGroup.add(credTextShit);
+		
 	}
 
 	function getIntroTextShit():Array<Array<String>>
