@@ -689,10 +689,6 @@ class ModchartState
 					FlxG.camera.setFilters([new ShaderFilter(shaders[shaderIndex])]);
 				});*/
 
-
-				objectToLua(lua,PlayState.instance.camHUD);
-				Lua.setglobal(lua,"fuckyou");
-
 				// default strums
 
 				for (i in 0...PlayState.strumLineNotes.length) {
