@@ -302,7 +302,7 @@ class PlayState extends MusicBeatState
 		persistentDraw = true;
 
 		if (SONG == null)
-			SONG = Song.loadFromJson('tutorial');
+			SONG = Song.loadFromJson('zombie-on-your-lawn');
 
 		Conductor.mapBPMChanges(SONG);
 		Conductor.changeBPM(SONG.bpm);
@@ -311,7 +311,7 @@ class PlayState extends MusicBeatState
 		
 		switch (SONG.song.toLowerCase())
 		{
-			case 'tutorial':
+			case 'zombie-on-your-lawn':
 				dialogue = ["Hey you're pretty cute.", 'Use the arrow keys to keep up \nwith me singing.'];
 			case 'bopeebo':
 				dialogue = [
@@ -2226,7 +2226,7 @@ class PlayState extends MusicBeatState
 	
 					if (!daNote.mustPress && daNote.wasGoodHit)
 					{
-						if (SONG.song != 'Tutorial')
+						if (SONG.song != 'Zombie-on-your-lawn')
 							camZooming = true;
 
 						var altAnim:String = "";
@@ -3343,13 +3343,13 @@ class PlayState extends MusicBeatState
 		{
 			boyfriend.playAnim('hey', true);
 		}
-
-		if (curBeat % 16 == 15 && SONG.song == 'Tutorial' && dad.curCharacter == 'gf' && curBeat > 16 && curBeat < 48)
+		/*
+		if (curBeat % 16 == 15 && SONG.song == 'Zombie-on-your-lawn' && dad.curCharacter == 'gf' && curBeat > 16 && curBeat < 48)
 			{
 				boyfriend.playAnim('hey', true);
 				dad.playAnim('cheer', true);
 			}
-
+			*/
 		switch (curStage)
 		{
 			case 'school':
