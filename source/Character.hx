@@ -122,6 +122,23 @@ class Character extends FlxSprite
 				updateHitbox();
 				antialiasing = false;
 
+			case 'sunflower':
+				// DAD ANIMATION LOADING CODE
+				tex = Paths.getSparrowAtlas('characters/sunflower');
+				frames = tex;
+				animation.addByPrefix('idle', 'sunflower-vibe', 24);
+				animation.addByPrefix('singUP', 'sunflower-note-up', 24);
+				animation.addByPrefix('singRIGHT', 'sunflower-note-right', 24);
+				animation.addByPrefix('singDOWN', 'sunflower-note-down', 24);
+				animation.addByPrefix('singLEFT', 'sunflower-note-left', 24);
+
+				addOffset('idle');
+				addOffset("singUP", -6, 50);
+				addOffset("singRIGHT", 0, 27);
+				addOffset("singLEFT", -10, 10);
+				addOffset("singDOWN", 0, -30);
+
+				playAnim('idle');
 			case 'dad':
 				// DAD ANIMATION LOADING CODE
 				tex = Paths.getSparrowAtlas('characters/DADDY_DEAREST');
