@@ -126,17 +126,19 @@ class Character extends FlxSprite
 				// DAD ANIMATION LOADING CODE
 				tex = Paths.getSparrowAtlas('characters/sunflower');
 				frames = tex;
-				animation.addByPrefix('idle', 'sunflower-vibe', 24);
+				animation.addByPrefix('idle', 'sunflower-vibe', 24,false);
+				animation.addByIndices('danceRight', 'sunflower-vibe',[29,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14],"", 24,false);
+				animation.addByIndices('danceLeft', 'sunflower-vibe',[15,16,17,18,19,20,21,22,23,24,25,26,27,28,29],"", 24,false);
 				animation.addByPrefix('singUP', 'sunflower-note-up', 24);
 				animation.addByPrefix('singRIGHT', 'sunflower-note-right', 24);
 				animation.addByPrefix('singDOWN', 'sunflower-note-down', 24);
 				animation.addByPrefix('singLEFT', 'sunflower-note-left', 24);
 
-				addOffset('idle');
-				addOffset("singUP", -6, 50);
-				addOffset("singRIGHT", 0, 27);
-				addOffset("singLEFT", -10, 10);
-				addOffset("singDOWN", 0, -30);
+				addOffset('idle',250,30);
+				addOffset("singUP", 170, 30);
+				addOffset("singRIGHT", 130, 30);
+				addOffset("singLEFT", 220, 30);
+				addOffset("singDOWN", 130,10);
 
 				playAnim('idle');
 			case 'dad':
@@ -149,11 +151,11 @@ class Character extends FlxSprite
 				animation.addByPrefix('singDOWN', 'Dad Sing Note DOWN', 24);
 				animation.addByPrefix('singLEFT', 'Dad Sing Note LEFT', 24);
 
-				addOffset('idle');
-				addOffset("singUP", -6, 50);
-				addOffset("singRIGHT", 0, 27);
-				addOffset("singLEFT", -10, 10);
-				addOffset("singDOWN", 0, -30);
+				addOffset('idle',-130,15);
+				addOffset("singUP", -130, 150);
+				addOffset("singRIGHT",-130, 0);
+				addOffset("singLEFT", -130, -150);
+				addOffset("singDOWN", -130, -300);
 
 				playAnim('idle');
 			case 'spooky':
@@ -630,6 +632,7 @@ class Character extends FlxSprite
 						playAnim('danceRight');
 					else
 						playAnim('danceLeft');
+
 				default:
 					playAnim('idle');
 			}
