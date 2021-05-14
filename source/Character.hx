@@ -135,10 +135,10 @@ class Character extends FlxSprite
 				animation.addByPrefix('singLEFT', 'sunflower-note-left', 24);
 
 				addOffset('idle',250,30);
-				addOffset("singUP", 170, 30);
-				addOffset("singRIGHT", 130, 30);
+				addOffset("singUP", 186, 17);
+				addOffset("singRIGHT", 231, 16);
 				addOffset("singLEFT", 220, 30);
-				addOffset("singDOWN", 130,10);
+				addOffset("singDOWN", 152,-6);
 
 				playAnim('idle');
 			case 'dad':
