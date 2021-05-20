@@ -1,7 +1,7 @@
 Zombie-on-your-lawn:sunflower:1
 Bopeebo:dad:1
 Freshman:dad:1
-Dadbattle:dad:1
+Neo-dadbattle:dad:1
 Spookeez:spooky:2
 South:spooky:2
 Monster:monster:2
