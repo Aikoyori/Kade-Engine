@@ -24,7 +24,7 @@ class StoryMenuState extends MusicBeatState
 	var scoreText:FlxText;
 
 	var weekData:Array<Dynamic> = [
-		['Zombie-on-your-lawn'],
+		['Tutorial'],
 		['Bopeebo', 'Freshman', 'Neo-dadbattle'],
 		['Spookeez', 'South', "Monster"],
 		['Pico', 'Philly', "Blammed"],
@@ -47,8 +47,8 @@ class StoryMenuState extends MusicBeatState
 	];
 
 	var weekNames:Array<String> = [
-		"How to Funk",
-		"Daddy Dearest",
+		"Tutorial: Advanced Edition",
+		"Daddy Strikes Back",
 		"Spooky Month",
 		"PICO",
 		"MOMMY MUST MURDER",
