@@ -4,7 +4,7 @@
 
 ![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/FNF-Cappy-Mix/FNF-Cappy-Mix/latest) ![GitHub repo size](https://img.shields.io/github/repo-size/FNF-Cappy-Mix/FNF-Cappy-Mix) ![Lines of code](https://img.shields.io/tokei/lines/github/FNF-Cappy-Mix/FNF-Cappy-Mix) ![Supported platforms](https://img.shields.io/badge/supported%20platforms-windows%2C%20linux%2C%20html5-blue) ![GitHub all releases](https://img.shields.io/github/downloads/FNF-Cappy-Mix/FNF-Cappy-Mix/total) ![GitHub](https://img.shields.io/github/license/FNF-Cappy-Mix/FNF-Cappy-Mix) ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/FNF-Cappy-Mix/FNF-Cappy-Mix?include_prereleases&label=latest%20version)
 
-[![Discord](https://img.shields.io/discord/836686473637789757?label=discord)](https://discord.gg/puGhxmvNHS)
+[![Discord](https://img.shields.io/discord/836686473637789757?label=discord)](https://discord.gg/puGhxmvNHS) [![Build status](https://ci.appveyor.com/api/projects/status/u4h3gf9i7l444pkj/branch/master?svg=true)](https://ci.appveyor.com/project/korewaChino/fnf-cappy-mix/branch/master)
 
 # Friday Night Funkin': Cappy's Mix
 
@@ -20,7 +20,7 @@ Links: <b>[itch.io page](https://ninja-muffin24.itch.io/funkin) ⋅ [Newgrounds]
 
 Cappy's Mix is a mod for Friday Night Funkin' based on the Kade Engine code.
 
-Links: **[play in browser](https://fnf-cappy-mix.github.io/FNF-Cappy-Mix/)** (More coming soon)
+Links: <b>[play in browser](https://fnf-cappy-mix.github.io/FNF-Cappy-Mix/)</b> (More coming soon)
 
 **REMEMBER**: This is a **mod**. This is not the vanilla game and should be treated as a **modification**. This is not and probably will never be official, so don't get confused.
 
@@ -48,7 +48,7 @@ This game was made with love to Newgrounds and its community. Extra love to Tom 
 
 ### Cappy's Mix
 
-* [Aikoyori](https://aikoyori.xyz) \- Programmer, Chart Editor, Art
+* [Aikoyori](https://aikoyori.xyz) \- Programmer\, Chart Editor\, Art
 * [Cappy Ishihara/Cup o' Chino](https://twitter.com/korewaChino) \- Remixed Music
 
 # Other pages
