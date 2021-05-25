@@ -1,4 +1,4 @@
-Zombie-on-your-lawn:sunflower:1
+Tutorial:gf:1
 Bopeebo:dad:1
 Freshman:dad:1
 Neo-dadbattle:dad:1
