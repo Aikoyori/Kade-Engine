@@ -4,7 +4,14 @@
 
 ![GitHub commits since latest release (by date)](https://img.shields.io/github/commits-since/FNF-Cappy-Mix/FNF-Cappy-Mix/latest) ![GitHub repo size](https://img.shields.io/github/repo-size/FNF-Cappy-Mix/FNF-Cappy-Mix) ![Lines of code](https://img.shields.io/tokei/lines/github/FNF-Cappy-Mix/FNF-Cappy-Mix) ![Supported platforms](https://img.shields.io/badge/supported%20platforms-windows%2C%20linux%2C%20html5-blue) ![GitHub all releases](https://img.shields.io/github/downloads/FNF-Cappy-Mix/FNF-Cappy-Mix/total) ![GitHub](https://img.shields.io/github/license/FNF-Cappy-Mix/FNF-Cappy-Mix) ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/FNF-Cappy-Mix/FNF-Cappy-Mix?include_prereleases&label=latest%20version)
 
-[![Discord](https://img.shields.io/discord/836686473637789757?label=discord)](https://discord.gg/puGhxmvNHS) [![Build status](https://ci.appveyor.com/api/projects/status/u4h3gf9i7l444pkj/branch/master?svg=true)](https://ci.appveyor.com/project/korewaChino/fnf-cappy-mix/branch/master)
+[![Discord](https://img.shields.io/discord/836686473637789757?label=discord)](https://discord.gg/puGhxmvNHS) 
+
+Builds:
+Windows [![Build status](https://ci.appveyor.com/api/projects/status/u4h3gf9i7l444pkj?svg=true)](https://ci.appveyor.com/project/korewaChino/fnf-cappy-mix-windows)
+
+macOS [![Build status](https://ci.appveyor.com/api/projects/status/8rndmqdh9orv0g5g?svg=true)](https://ci.appveyor.com/project/korewaChino/fnf-cappy-mix-macos)
+
+Linux [![Build status](https://ci.appveyor.com/api/projects/status/vbfj3x89xv4wuwk2?svg=true)](https://ci.appveyor.com/project/korewaChino/fnf-cappy-mix-linux)
 
 # Friday Night Funkin': Cappy's Mix
 
