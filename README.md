@@ -6,7 +6,7 @@
 
 [![Discord](https://img.shields.io/discord/836686473637789757?label=discord)](https://discord.gg/puGhxmvNHS) 
 
-[![Build for Windows](https://github.com/FNF-Cappy-Mix/FNF-Cappy-Mix/actions/workflows/deploy-windows.yml/badge.svg)](https://github.com/FNF-Cappy-Mix/FNF-Cappy-Mix/actions/workflows/deploy-windows.yml) [![Build for Linux](https://github.com/FNF-Cappy-Mix/FNF-Cappy-Mix/actions/workflows/deploy-linux.yml/badge.svg)](https://github.com/FNF-Cappy-Mix/FNF-Cappy-Mix/actions/workflows/deploy-linux.yml) [![Build for macOS](https://github.com/FNF-Cappy-Mix/FNF-Cappy-Mix/actions/workflows/deploy-macos.yml/badge.svg)](https://github.com/FNF-Cappy-Mix/FNF-Cappy-Mix/actions/workflows/deploy-macos.yml) 
+[![Build for Windows](https://github.com/FNF-Cappy-Mix/FNF-Cappy-Mix/actions/workflows/deploy-windows.yml/badge.svg)](https://github.com/FNF-Cappy-Mix/FNF-Cappy-Mix/actions/workflows/deploy-windows.yml) [![Build for Linux](https://github.com/FNF-Cappy-Mix/FNF-Cappy-Mix/actions/workflows/deploy-linux.yml/badge.svg)](https://github.com/FNF-Cappy-Mix/FNF-Cappy-Mix/actions/workflows/deploy-linux.yml) [![Build for macOS](https://github.com/FNF-Cappy-Mix/FNF-Cappy-Mix/actions/workflows/deploy-macos.yml/badge.svg)](https://github.com/FNF-Cappy-Mix/FNF-Cappy-Mix/actions/workflows/deploy-macos.yml) [![Deploy as Web](https://github.com/FNF-Cappy-Mix/FNF-Cappy-Mix/actions/workflows/deploy-page.yml/badge.svg)](https://github.com/FNF-Cappy-Mix/FNF-Cappy-Mix/actions/workflows/deploy-page.yml)
 
 # Friday Night Funkin': Cappy's Mix
 

@@ -1,4 +1,4 @@
-name: Build the Game and Deploy as GitHub Pages
+name: Deploy for Web
 on:
   push:
     branches:
