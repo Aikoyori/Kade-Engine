@@ -17,8 +17,8 @@ jobs:
           haxe-version: 4.1.5
 
       - run: |
-          mkdir $HAXELIB_ROOT
-          haxelib setup $HAXELIB_ROOT
+          mkdir "$HAXELIB_ROOT"
+          haxelib setup "$HAXELIB_ROOT"
     
       - name: Install Libraries
         run: |
