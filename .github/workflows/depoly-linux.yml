@@ -18,8 +18,8 @@ jobs:
 
       - run: |
           export PATH=$PATH:$HAXE_INSTALLDIR/haxe_20201231082044_5e33a78aa
-          mkdir $HAXELIB_ROOT
-          haxelib setup $HAXELIB_ROOT
+          mkdir "$HAXELIB_ROOT"
+          haxelib setup "$HAXELIB_ROOT"
     
       - name: Install Libraries
         run: |
